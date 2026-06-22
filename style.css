@@ -1,0 +1,147 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0b1220;
+  color:white;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  background:url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') center/cover;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.overlay{
+  position:absolute;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+}
+
+.hero-content{
+  position:relative;
+  max-width:700px;
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+.hero p{
+  margin:15px 0;
+  color:#ddd;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  background:#22c55e;
+  border-radius:30px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* STATS */
+.stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  padding:50px;
+  text-align:center;
+  background:#0f172a;
+}
+
+.stat h2{
+  font-size:2.5rem;
+  color:#22c55e;
+}
+
+/* MISSION */
+.mission{
+  padding:60px 20px;
+  text-align:center;
+  background:#111827;
+}
+
+.mission p{
+  max-width:700px;
+  margin:auto;
+  color:#ccc;
+}
+
+/* PROGRESS */
+.progress-section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.progress-box{
+  max-width:600px;
+  margin:auto;
+}
+
+.bar{
+  width:100%;
+  height:20px;
+  background:#1f2937;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.fill{
+  width:65%;
+  height:100%;
+  background:linear-gradient(90deg,#2563eb,#22c55e);
+  transition:1s;
+}
+
+/* DONATION */
+.donation{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.card{
+  background:white;
+  color:black;
+  max-width:600px;
+  margin:auto;
+  padding:25px;
+  border-radius:15px;
+}
+
+.box{
+  background:#f1f5f9;
+  padding:15px;
+  margin:15px 0;
+  border-radius:10px;
+  text-align:left;
+}
+
+.btn2{
+  background:#0ea5e9;
+  border:none;
+  padding:10px 20px;
+  border-radius:20px;
+  color:white;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
