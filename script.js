@@ -1,12 +1,12 @@
 // COPIAR DATOS
 function copiarDatos(){
   navigator.clipboard.writeText(`
-Nombre: Benjamín Andrés Ramírez
-Banco: Banco BCI
-Tipo: Cuenta Prima
-N° Cuenta: 475900271
-RUT: 22.040.503-6
-Email: BENJARAMIREZG7@GMAIL.COM
+Nombre: ORTIZ VICENTE ANDRES FLORES
+Banco: Banco itau
+Tipo: Cuenta Vista
+N° Cuenta: 0223699122
+RUT: 22.311.024-k
+Email: FLORES.VICENTEANDRES@GMAIL.COM
   `);
 
   alert("📋 Datos copiados al portapapeles");
